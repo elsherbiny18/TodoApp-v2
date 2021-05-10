@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: darkslategrey;
+  background-image: url("images/bg2.jpg");
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}
+
+.box-conatiner {
+  margin: 20px auto;
+  width: 70%;
+  background-color: #ff7403e8;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+.box-conatiner .addText {
+  margin: 0 20px;
+  width: 85%;
+  padding: 20px 20px 20px 15px;
+  border: 0;
+  font-size: 35px;
+  background-color: #f6ea98;
+  color: #333;
+  border-radius: 15px;
+}
+.box-conatiner .addBtn {
+  font-size: 35px;
+  background-color: rgb(238, 238, 238);
+  font-weight: bold;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 15px;
+  width: 7%;
+  color: green;
+}
+
+.task-box {
+  margin: 20px auto;
+  width: 70%;
+  background-color: #ff7403e8;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+.task-box > span {
+  display: block;
+  background-color: honeydew;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.task-box > span:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.task-box .task {
+  font-size: 25px;
+  font-weight: 700;
+  color: #111;
+}
+
+.task-box .delete {
+  float: right;
+  background-color: rgb(228, 32, 65);
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.finshed {
+  text-decoration: line-through;
+}
